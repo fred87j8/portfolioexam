@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/splash.PNG);
+    background-image: url(images/splash_2.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -17,4 +17,199 @@ h1 {
     top: 15vh;
     right: -19vw;
     transform: rotate(352deg);
+}
+
+/*flyvende pizza*/
+
+#pizza_slices {
+    position: absolute;
+    top: -15vw;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+}
+
+#pizza_container0 {
+    position: absolute;
+}
+
+#pizza_sprite0 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 7vw;
+    height: 7.5vw;
+    cursor: pointer;
+}
+
+#pizza_container1 {
+    position: absolute;
+}
+
+#pizza_sprite1 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 7vw;
+    height: 7.5vw;
+    cursor: pointer;
+}
+
+#pizza_container2 {
+    position: absolute;
+}
+
+#pizza_sprite2 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 7vw;
+    height: 7.5vw;
+    z-index: 20;
+    cursor: pointer;
+    position: absolute;
+}
+
+#pizza_container3 {
+    position: absolute;
+}
+
+#pizza_sprite3 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 8vw;
+    height: 8.57vw;
+    z-index: 20;
+    cursor: pointer;
+    position: absolute;
+}
+
+#pizza_container4 {
+    position: absolute;
+}
+
+#pizza_sprite4 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 8vw;
+    height: 8.57vw;
+    z-index: 20;
+    cursor: pointer;
+    position: absolute;
+}
+
+#pizza_container5 {
+    position: absolute;
+}
+
+#pizza_sprite5 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 8vw;
+    height: 8.57vw;
+    z-index: 20;
+    cursor: pointer;
+    position: absolute;
+}
+
+#pizza_container6 {
+    position: absolute;
+}
+
+#pizza_sprite6 {
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    width: 8vw;
+    height: 8.57vw;
+    z-index: 20;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+/******* ANIMATIONS *******/
+
+.frys {
+    animation-play-state: paused;
+}
+
+.fald {
+    animation: fald_kf;
+    animation-duration: 3.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fald_kf {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(100vw) rotate(360deg);
+    }
+}
+
+.forsvind {
+    animation-name: forsvind_kf;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes forsvind_kf {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(2.5);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+/************ DELAYS *************/
+
+.delay0 {
+    animation-delay: 2.7s;
+    top: -8vw;
+    left: 10vw;
+}
+
+.delay1 {
+    animation-delay: 1.5s;
+    top: -8vw;
+    left: 17vw;
+}
+
+.delay2 {
+    animation-delay: 4s;
+    top: -8vw;
+    left: 29vw;
+}
+
+.delay3 {
+    animation-delay: 2s;
+    top: -8vw;
+    left: 38vw;
+}
+
+.delay4 {
+    animation-delay: 0s;
+    top: -8vw;
+    left: 47vw;
+}
+
+.delay5 {
+    animation-delay: 1.2s;
+    top: -8vw;
+    left: 88vw;
+}
+
+.delay6 {
+    animation-delay: 7s;
+    top: -8vw;
+    left: 58vw;
 }
