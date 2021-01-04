@@ -26,7 +26,7 @@ h1 {
     top: -15vw;
     width: 100%;
     height: 100%;
-    z-index: 30;
+    z-index: 20;
 }
 
 #pizza_container0 {
@@ -36,8 +36,8 @@ h1 {
 #pizza_sprite0 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 7vw;
-    height: 7.5vw;
+    width: 6rem;
+    height: 6.43rem;
     cursor: pointer;
 }
 
@@ -48,8 +48,8 @@ h1 {
 #pizza_sprite1 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 7vw;
-    height: 7.5vw;
+    width: 6rem;
+    height: 6.43rem;
     cursor: pointer;
 }
 
@@ -60,8 +60,8 @@ h1 {
 #pizza_sprite2 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 7vw;
-    height: 7.5vw;
+    width: 5rem;
+    height: 5.36rem;
     z-index: 20;
     cursor: pointer;
     position: absolute;
@@ -74,8 +74,8 @@ h1 {
 #pizza_sprite3 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 8vw;
-    height: 8.57vw;
+    width: 5rem;
+    height: 5.36rem;
     z-index: 20;
     cursor: pointer;
     position: absolute;
@@ -88,8 +88,8 @@ h1 {
 #pizza_sprite4 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 8vw;
-    height: 8.57vw;
+    width: 4rem;
+    height: 4.29rem;
     z-index: 20;
     cursor: pointer;
     position: absolute;
@@ -102,8 +102,8 @@ h1 {
 #pizza_sprite5 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 8vw;
-    height: 8.57vw;
+    width: 4.5rem;
+    height: 4.71rem;
     z-index: 20;
     cursor: pointer;
     position: absolute;
@@ -116,8 +116,8 @@ h1 {
 #pizza_sprite6 {
     background-image: url(images/pizza.png);
     background-size: cover;
-    width: 8vw;
-    height: 8.57vw;
+    width: 6.5rem;
+    height: 6.96rem;
     z-index: 20;
     cursor: pointer;
     position: absolute;
@@ -143,7 +143,7 @@ h1 {
     }
 
     100% {
-        transform: translateY(100vw) rotate(360deg);
+        transform: translateY(140vh) rotate(360deg);
     }
 }
 
@@ -173,7 +173,7 @@ h1 {
 /************ DELAYS *************/
 
 .delay0 {
-    animation-delay: 2.7s;
+    animation-delay: 2.5s;
     top: -8vw;
     left: 10vw;
 }
@@ -185,7 +185,7 @@ h1 {
 }
 
 .delay2 {
-    animation-delay: 4s;
+    animation-delay: 3s;
     top: -8vw;
     left: 29vw;
 }
@@ -209,7 +209,52 @@ h1 {
 }
 
 .delay6 {
-    animation-delay: 7s;
+    animation-delay: 3.5s;
     top: -8vw;
     left: 58vw;
 }
+
+
+
+@media (max-width: 800px) {
+    body {
+        background-image: url(images/splash_2.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #pizza_slices {
+        position: absolute;
+        top: -25vw;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*space*/

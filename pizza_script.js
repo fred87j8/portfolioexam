@@ -103,5 +103,41 @@ function pizzaReset() {
 }
 
 
+window.addEventListener("load", sidenVises);
+
+function sidenVises() {
+    console.log("sidenVises");
+    document.querySelector("#menuknap").addEventListener("mousedown", toggleMenu);
+}
+
+function toggleMenu() {
+    console.log("toggleMenu");
+    document.querySelector("nav").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector("nav").classList.contains("hidden");
+
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰";
+        document.querySelector("#pizza_container0").classList.add("fald");
+        document.querySelector("#pizza_container1").classList.add("fald");
+        document.querySelector("#pizza_container2").classList.add("fald");
+        document.querySelector("#pizza_container3").classList.add("fald");
+        document.querySelector("#pizza_container4").classList.add("fald");
+        document.querySelector("#pizza_container5").classList.add("fald");
+        document.querySelector("#pizza_container6").classList.add("fald");
+
+    } else {
+        document.querySelector("#menuknap").textContent = "✕";
+        document.querySelector("#pizza_container0").classList.remove("fald");
+        document.querySelector("#pizza_container1").classList.remove("fald");
+        document.querySelector("#pizza_container2").classList.remove("fald");
+        document.querySelector("#pizza_container3").classList.remove("fald");
+        document.querySelector("#pizza_container4").classList.remove("fald");
+        document.querySelector("#pizza_container5").classList.remove("fald");
+        document.querySelector("#pizza_container6").classList.remove("fald");
+    }
+
+}
+
 
 //

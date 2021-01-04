@@ -118,11 +118,11 @@ a:hover {
     align-items: center;
     padding: 0rem 1.5rem 0rem 1.5rem;
     list-style-type: none;
-    z-index: 10;
 }
 
 li {
     padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    z-index: 40;
 }
 
 .left_menu {
@@ -153,3 +153,141 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+/***********mobile***********/
+
+@media (max-width: 800px) {
+
+    /*********burgermenu*********/
+
+    nav {
+        z-index: 30;
+        height: 102vh;
+        width: 100vw;
+        background-color: #C9B2C2;
+        overflow: hidden;
+        position: relative;
+        top: -3.5rem;
+    }
+
+    #menuknap {
+        display: flex;
+        text-align: center;
+        color: #A3869A;
+        z-index: 40;
+        font-size: 2.3rem;
+        position: relative;
+        top: 1vw;
+        left: 6vw;
+        background-color: white;
+        border-color: #A3869A;
+        border-style: solid;
+        border-width: 2px;
+        margin: 0rem 0.2rem 0rem 0.2rem;
+        padding: 0rem 0.5rem 0.1rem 0.5rem;
+        width: 2rem;
+    }
+
+    /*
+.border_box {
+    border-color: #F7D131;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: -0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -3rem;
+    padding: 3rem 1rem 1rem 1rem;
+    position: absolute;
+}
+*/
+
+    ul {
+        line-height: 200%;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    #menu {
+        display: grid;
+        align-content: center;
+        position: relative;
+        top: 5rem;
+        left: 20vw;
+        z-index: 50;
+        margin: 0 auto;
+        /*
+        border-color: #F7D131;
+        border-style: solid;
+        border-width: 4px;
+*/
+    }
+
+    .topic {
+        margin: 0.6rem;
+        border-width: 4px;
+    }
+
+    .left_menu {
+        display: inline-block;
+        align-content: center;
+    }
+
+    .right_menu {
+        display: inline-block;
+        align-content: center;
+    }
+
+    .sofa {
+        width: 120px;
+    }
+
+
+    /*Classes til brug i js*/
+
+    .hidden {
+        display: none;
+    }
+
+    .border_box {
+        border-color: #F7D131;
+        border-style: solid;
+        border-width: 4px;
+        margin-bottom: -0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: -1.75rem;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    footer {
+        padding: 1.5rem 2rem 2rem 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    space*/
