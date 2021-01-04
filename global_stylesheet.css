@@ -1,0 +1,142 @@
+/*background*/
+
+body {
+    background-color: #C9B2C2;
+}
+
+.border_box {
+    border-color: #F7D131;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -3rem;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+/*fonts*/
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8rem;
+    color: #F7D131;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #F7D131;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
+}
+
+h2 .white {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 400;
+}
+
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 400;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #3E3D3D;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 300;
+}
+
+p .white {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 300;
+}
+
+
+
+/*links*/
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: #BC87AC;
+    text-decoration: none;
+}
+
+.topic {
+    background-color: white;
+    border-color: #A3869A;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+}
+
+/*Nav*/
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    list-style-type: none;
+    z-index: 10;
+}
+
+li {
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+}
+
+.left_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.right_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+/*
+.sofa {
+    background-color: opaque;
+
+}
+*/
+
+
+#menuknap {
+    display: none;
+}

@@ -1,0 +1,19 @@
+body {
+    background-image: url(images/splash.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.border_box {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 9rem;
+    line-height: 7.1rem;
+    text-align: center;
+    position: relative;
+    top: 17vh;
+    right: -19vw;
+}
