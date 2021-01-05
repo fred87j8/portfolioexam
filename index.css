@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    background-position: center;
 }
 
 .border_box {
@@ -14,8 +15,8 @@ h1 {
     line-height: 7.1rem;
     text-align: center;
     position: relative;
-    top: 15vh;
-    right: -19vw;
+    top: 8.5vh;
+    right: -15vw;
     transform: rotate(352deg);
 }
 
@@ -216,17 +217,18 @@ h1 {
 
 
 
-@media (max-width: 800px) {
-    body {
-        background-image: url(images/splash_2.PNG);
-        background-size: contain;
-        background-repeat: no-repeat;
-        overflow-x: hidden;
+
+@media (max-width: 680px) {
+
+    h1 {
+        font-size: 5.5rem;
+        line-height: 5.1rem;
+        text-align: center;
+        position: relative;
+        top: 3vh;
+        right: -6vw;
+        transform: rotate(352deg);
     }
-
-}
-
-@media (max-width: 600px) {
 
     #pizza_slices {
         position: absolute;
