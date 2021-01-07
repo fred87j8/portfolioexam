@@ -99,9 +99,7 @@ function pizzaReset() {
     this.classList.remove("fald");
     this.offsetHeight;
     this.classList.add("fald");
-
 }
-
 
 window.addEventListener("load", sidenVises);
 

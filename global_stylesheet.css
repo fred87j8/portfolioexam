@@ -70,7 +70,6 @@ p {
 
 }
 
-
 /*links*/
 
 a {
@@ -118,6 +117,18 @@ li {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
+}
+
+#linkbox {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    display: block;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    color: white;
+    text-align: center;
 }
 
 .right_menu {
@@ -238,6 +249,11 @@ footer {
 
     .hidden {
         display: none;
+        transform: translateX(-10%);
+
+        /*
+        transition: .15s ease;
+*/
     }
 
     .border_box {

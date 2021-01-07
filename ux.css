@@ -33,3 +33,28 @@ p {
     padding: 1vw 0 0 2.9vw;
     margin: 0 8rem 2rem 1rem;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2vw;
+}
+
+
+.topic_1 {
+    background-color: #F7D131;
+    padding: 3vw 6vw 3vw 6vw;
+    margin-top: 2vw;
+    margin-bottom: 2rem;
+    margin-left: -2.2rem;
+    margin-right: -2rem;
+    overflow: hidden;
+}
+
+/*ratio:0,5735849057*/
+.image_1 {
+    background-image: url(images/ide.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 39vw;
+}
