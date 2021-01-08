@@ -29,8 +29,113 @@ p {
     padding: 1vw 0 0 2.9vw;
 }
 
+
 .beskrivelse {
     max-width: 900px;
     padding: 1vw 0 0 2.9vw;
     margin: 0 8rem 2rem 1rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2vw;
+}
+
+
+.topic_1 {
+    background-color: #F7D131;
+    padding: 3vw 6vw 3vw 6vw;
+    margin-top: 2vw;
+    margin-bottom: 2rem;
+    margin-left: -2.2rem;
+    margin-right: -2rem;
+    overflow: hidden;
+}
+
+/*
+.video {
+
+
+    width: 85vw;
+    height: 57.13vw;
+
+    margin-bottom: 2rem;
+    align-content: center;
+}
+*/
+
+iframe {
+    width: 60vw;
+    height: 33.75vw;
+    position: relative;
+    left: 14vw;
+    top: 2vh;
+    margin-bottom: 3rem;
+}
+
+.image_2 {
+    background-image: url(images/burger_menu_redesign.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 39vw;
+    height: 34.4vw;
+}
+
+.text {
+    width: 47vw;
+}
+
+.wide_text {
+    width: 85vw;
+    margin-bottom: 1.5rem;
+}
+
+.topic_2 {
+    background-color: #BA9BB1;
+    padding: 3vw 6vw 3vw 6vw;
+    margin-top: 2vw;
+    margin-bottom: 3rem;
+    margin-left: -2.2rem;
+    margin-right: -2rem;
+    overflow: hidden;
+}
+
+@media (max-width: 750px) {
+    .beskrivelse {
+        margin: 1rem 1rem 2rem 0.8rem;
+    }
+
+    .topic_1,
+    .topic_2 {
+        margin-right: -1.7rem;
+        padding: 8vw;
+    }
+
+    iframe {
+        width: 83vw;
+        height: 46.84vw;
+        position: relative;
+        left: 2vw;
+        top: 2vh;
+        margin-bottom: 2rem;
+    }
+
+    .image_2 {
+        width: 87vw;
+        height: 72.29vw;
+        margin-bottom: 1rem;
+        margin-left: .5rem;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+        padding: 0 .5rem 0 .5rem;
+    }
 }
