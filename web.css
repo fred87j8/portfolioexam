@@ -33,6 +33,13 @@ p {
     margin: 0 8rem 2rem 1rem;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2vw;
+}
+
+
 .topic_1 {
     background-color: #F7D131;
     padding: 3vw 6vw 3vw 6vw;
@@ -43,13 +50,13 @@ p {
     overflow: hidden;
 }
 
-/*ratio:0,5735849057*/
+/*ratio:0,7332704995*/
 .image_1 {
-    background-image: url(images/stilpitch.png);
+    background-image: url(images/stilpitch_2.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 39vw;
-    height: 22.37vw;
+    height: 27.13vw;
 }
 
 /*ratio: 0,6949910555*/
@@ -61,12 +68,9 @@ p {
     height: 27.1vw;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 2vw;
+.text {
+    width: 47vw;
 }
-
 
 .topic_2 {
     background-color: #BA9BB1;
@@ -96,8 +100,8 @@ p {
     }
 
     .image_2 {
-        width: 83vw;
-        height: 57.68vw;
+        width: 87vw;
+        height: 60.46vw;
         margin-bottom: 1rem;
 
     }
@@ -105,5 +109,10 @@ p {
     .content {
         display: flex;
         flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+        padding: 0 .5rem 0 .5rem;
     }
 }

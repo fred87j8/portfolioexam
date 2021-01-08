@@ -95,7 +95,6 @@ function pizzaReset() {
     myRand = Math.floor(Math.random() * 7);
     this.classList.add("delay" + myRand);
 
-    // Genstart fald på container
     this.classList.remove("fald");
     this.offsetHeight;
     this.classList.add("fald");

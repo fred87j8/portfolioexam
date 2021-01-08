@@ -29,12 +29,22 @@ h2 {
 }
 
 .cv {
-    margin: 5vw 3vw 3vw 3vw;
+    margin: 2vw 3vw 3vw 3vw;
     max-width: 1000px;
 }
 
 .cv_headline {
     margin-bottom: 3vw;
+}
+
+.intro_headline {
+    margin-bottom: 0.6rem;
+    margin-top: 1.6rem;
+}
+
+.intro_text {
+    margin: 0 3vw 2.5rem 0;
+    max-width: 800px;
 }
 
 .kategori {

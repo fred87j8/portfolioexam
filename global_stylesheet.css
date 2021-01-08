@@ -43,6 +43,7 @@ h3 {
     margin-top: 0rem;
     margin-bottom: 0rem;
     font-weight: 500;
+    padding: 0.5rem 0 0.5rem 0;
 }
 
 h4 {
@@ -52,6 +53,7 @@ h4 {
     margin-top: 0rem;
     margin-bottom: 0rem;
     font-weight: 400;
+    padding: .3rem 0 .3rem 0;
 }
 
 p {
@@ -123,7 +125,7 @@ li {
     border-color: white;
     border-style: solid;
     border-width: 1px;
-    width: 100%;
+    width: 97%;
     display: block;
     margin: 1rem 0rem 1rem 0rem;
     padding: 0.7rem 1rem 0.7rem 1rem;
@@ -158,6 +160,10 @@ footer {
 
 @media (max-width: 680px) {
 
+    h3 {
+        font-size: 1.9rem;
+    }
+
     /*********burgermenu*********/
 
     nav {
@@ -188,20 +194,6 @@ footer {
         width: 2rem;
     }
 
-    /*
-.border_box {
-    border-color: #F7D131;
-    border-style: solid;
-    border-width: 4px;
-    margin-bottom: -0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: -3rem;
-    padding: 3rem 1rem 1rem 1rem;
-    position: absolute;
-}
-*/
-
     ul {
         line-height: 200%;
         padding: 2rem;
@@ -216,11 +208,6 @@ footer {
         left: 15vw;
         z-index: 50;
         margin: 0 auto;
-        /*
-        border-color: #F7D131;
-        border-style: solid;
-        border-width: 4px;
-*/
     }
 
     .topic {
@@ -273,6 +260,10 @@ footer {
         justify-content: center;
     }
 
+
+    #linkbox {
+        width: 92.5%;
+    }
 }
 
 
