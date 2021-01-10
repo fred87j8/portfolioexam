@@ -217,8 +217,73 @@ h1 {
 
 
 
-
 @media (max-width: 680px) {
+
+    .fald {
+        animation: fald_kf;
+        animation-duration: 3.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes forsvind_kf {
+        0% {
+            transform: scale(1);
+        }
+
+        30% {
+            transform: scale(2.5);
+        }
+
+        100% {
+            transform: scale(0);
+        }
+    }
+
+    .delay0 {
+        animation-delay: 2.5s;
+        top: -8vw;
+        left: 10vw;
+    }
+
+    .delay1 {
+        animation-delay: 1.5s;
+        top: -8vw;
+        left: 17vw;
+    }
+
+    .delay2 {
+        animation-delay: 3s;
+        top: -8vw;
+        left: 29vw;
+    }
+
+    .delay3 {
+        animation-delay: 2s;
+        top: -8vw;
+        left: 38vw;
+    }
+
+    .delay4 {
+        animation-delay: 0s;
+        top: -8vw;
+        left: 47vw;
+    }
+
+    .delay5 {
+        animation-delay: 1.2s;
+        top: -8vw;
+        left: 88vw;
+    }
+
+    .delay6 {
+        animation-delay: 3.5s;
+        top: -8vw;
+        left: 58vw;
+    }
+
+
+
 
     h1 {
         font-size: 5.5rem;

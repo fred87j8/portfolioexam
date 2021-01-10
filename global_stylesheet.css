@@ -99,6 +99,19 @@ a:hover {
     padding: 0.45rem 0.8rem 0.2rem 0.8rem;
 }
 
+.topic:hover {
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    padding: 0.55rem 0.9rem 0.3rem 0.9rem;
+}
+
+.sofa {
+    margin: 0 .2rem 0 .2rem;
+}
+
+.sofa:hover {
+    transform: scale(1.18);
+}
+
 /*Nav*/
 
 #menu {
@@ -216,10 +229,24 @@ footer {
         left: 15vw;
         z-index: 50;
         margin: 0 auto;
+        /*        list-style-type: none;*/
+
+
     }
+
+    /*
+#menu::after {
+    transition: transform 3s;
+    transform: translateY(50%);
+    transform-origin: top left;
+    transition-delay: 2s;
+}
+*/
+
 
     li {
         padding: 1rem 0 0 0;
+
     }
 
     .topic {
@@ -246,16 +273,17 @@ footer {
     }
 
 
+
     /*Classes til brug i js*/
 
     .hidden {
         display: none;
-        transform: translateX(-10%);
 
         /*
         transition: .15s ease;
 */
     }
+
 
     .border_box {
         border-color: #F7D131;
