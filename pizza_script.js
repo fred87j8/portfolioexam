@@ -46,6 +46,10 @@ function pizzaClick() {
 
     // Genstart container når forsvind er slut
     this.addEventListener("animationend", pizzaClickReset);
+
+    // Start cat lyd
+    document.querySelector("#slurp").play();
+    document.querySelector("#slurp").currentTime = 0;
 }
 
 function pizzaClickReset() {
