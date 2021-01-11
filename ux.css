@@ -30,112 +30,140 @@ p {
 
 .beskrivelse {
     max-width: 900px;
-    padding: 1vw 0 0 2.9vw;
-    margin: 0 8rem 2rem 1rem;
+    padding: 1vw 0 0 0.5vw;
+    margin: 1rem 1rem 2rem 0.8rem;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 2vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .text {
-    width: 47vw;
+    width: 100%;
+    padding: 0 .5rem 0 .5rem;
 }
 
 .topic_1 {
     background-color: #F7D131;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 2rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
 
 .image_1 {
     background-image: url(images/ide.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 39vw;
-    height: 22.39vw;
+    width: 88vw;
+    height: 50.53vw;
+    margin-bottom: 1rem;
 }
+
 
 .topic_2 {
     background-color: #BA9BB1;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 2rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
 
 .image_2 {
     background-image: url(images/prototype.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 39vw;
-    height: 28.8vw;
+    width: 88vw;
+    height: 66.4vw;
+    margin-bottom: 1rem;
 }
 
 .topic_3 {
     background-color: #F7D131;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 2rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
 
 .image_3 {
     background-image: url(images/pitch.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 39vw;
-    height: 36.4vw;
+    width: 88vw;
+    height: 83.9vw;
+    margin-bottom: 1rem;
 }
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (min-width: 680px) {
+
+
     .beskrivelse {
-        margin: 1rem 1rem 2rem 0.8rem;
+        margin: 0 8rem 2rem 1rem;
+        padding-left: 1.5rem;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 2vw;
     }
 
     .topic_1,
     .topic_2,
     .topic_3 {
-        margin-right: -1.7rem;
-        padding: 8vw;
+        margin-right: -2rem;
+        padding: 3vw 6vw 3vw 6vw;
     }
 
     .image_1 {
-        width: 88vw;
-        height: 50.53vw;
-        margin-bottom: 1rem;
+        width: 39vw;
+        height: 22.39vw;
     }
 
     .image_2 {
-        width: 88vw;
-        height: 66.4vw;
-        margin-bottom: 1rem;
-
+        width: 39vw;
+        height: 28.8vw;
     }
 
     .image_3 {
-        width: 88vw;
-        height: 83.9vw;
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column;
+        width: 39vw;
+        height: 36.4vw;
     }
 
     .text {
-        width: 100%;
-        padding: 0 .5rem 0 .5rem;
+        width: 47vw;
+        padding: 0;
     }
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+space*/

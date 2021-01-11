@@ -5,28 +5,38 @@
 
 .portrait {
     background-image: url(images/frederikkekaysen_cv_2.png);
-    height: 35vw;
-    width: 26.39vw;
+
+    height: 102vw;
+    width: 85vw;
     background-size: cover;
 }
 
+
+
+
 .top {
     display: flex;
-    align-content: space-between;
-    margin: 1vw;
+    align-content: center;
+    flex-direction: column-reverse;
 }
 
+
 .headline {
-    padding: 1vw 0 0 2.9vw;
+    padding: 1vw 0 0 1vw;
 }
 
 h1 {
-    font-size: 15vw;
+    font-size: 20.2vw;
 }
 
 h2 {
-    font-size: 8vw;
+    font-size: 10vw;
 }
+
+h3 {
+    font-size: 7vw;
+}
+
 
 .cv {
     margin: 2vw 3vw 3vw 3vw;
@@ -47,66 +57,91 @@ h2 {
     max-width: 800px;
 }
 
+
+
+
 .kategori {
-    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 2rem;
+
 }
+
 
 .element {
-    display: grid;
-    grid-template-columns: 2fr 8fr;
-    grid-template-rows: auto;
-    grid-row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 0;
+
 }
+
+
 
 p {
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.3rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {}
 
-    .top {
-        display: flex;
-        align-content: center;
-        flex-direction: column-reverse;
-    }
+
+
+@media only screen and (min-width: 600px) {
 
     h1 {
-        font-size: 20.2vw;
+        font-size: 15vw;
     }
 
     h2 {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     h3 {
-        font-size: 7vw;
+        font-size: 1.9rem;
+    }
+
+
+
+    .top {
+        display: flex;
+        align-content: space-between;
+        flex-direction: row;
+        margin: 1vw;
     }
 
     .headline {
-        padding: 1vw 0 0 1vw;
+        padding: 1vw 0 0 2.9vw;
     }
 
     .portrait {
-        height: 102vw;
-        width: 85vw;
-    }
-
-    .kategori {
-        display: flex;
-        flex-direction: column;
-        grid-row-gap: 2rem;
-
+        height: 35vw;
+        width: 26.39vw;
     }
 
     .element {
-        display: flex;
-        flex-direction: column;
-        grid-row-gap: 0;
-
+        display: grid;
+        grid-template-columns: 2fr 8fr;
+        grid-template-rows: auto;
+        grid-row-gap: 1rem;
     }
 
-    p {
-        margin-bottom: 0.3rem;
+    .kategori {
+        margin-bottom: 3rem;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+space*/

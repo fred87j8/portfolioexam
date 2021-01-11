@@ -29,25 +29,24 @@ p {
 
 .beskrivelse {
     max-width: 900px;
-    padding: 1vw 0 0 2.9vw;
-    margin: 0 8rem 2rem 1rem;
+    padding: 1vw 0 0 0.5vw;
+    margin: 1rem 1rem 2rem 0.8rem;
+
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 2vw;
+    display: flex;
+    flex-direction: column;
 }
-
 
 .topic_1 {
     background-color: #F7D131;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 2rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
 
 /*ratio:0,7332704995*/
@@ -55,64 +54,74 @@ p {
     background-image: url(images/stilpitch_2.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 39vw;
-    height: 27.13vw;
+    width: 83vw;
+    height: 60.86vw;
+    margin-bottom: 1rem;
 }
+
 
 /*ratio: 0,6949910555*/
 .image_2 {
     background-image: url(images/responsive_site.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 39vw;
-    height: 27.1vw;
+    width: 87vw;
+    height: 60.46vw;
+    margin-bottom: 1rem;
 }
 
 .text {
-    width: 47vw;
+    width: 100%;
+    padding: 0 .5rem 0 .5rem;
 }
 
 .topic_2 {
     background-color: #BA9BB1;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 3rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (min-width: 680px) {
+
     .beskrivelse {
-        margin: 1rem 1rem 2rem 0.8rem;
-    }
-
-    .topic_1,
-    .topic_2 {
-        margin-right: -1.7rem;
-        padding: 8vw;
-    }
-
-    .image_1 {
-        width: 83vw;
-        height: 60.86vw;
-        margin-bottom: 1rem;
-    }
-
-    .image_2 {
-        width: 87vw;
-        height: 60.46vw;
-        margin-bottom: 1rem;
+        margin: 0 8rem 2rem 1rem;
+        padding-left: 1.5rem;
 
     }
 
     .content {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 2vw;
     }
 
-    .text {
-        width: 100%;
-        padding: 0 .5rem 0 .5rem;
+    .topic_1,
+    .topic_2 {
+        margin-right: -2rem;
+        padding: 3vw 6vw 3vw 6vw;
     }
+
+    .image_1 {
+        width: 39vw;
+        height: 27.13vw;
+        margin-bottom: 0;
+    }
+
+    .image_2 {
+        width: 39vw;
+        height: 27.1vw;
+        margin-bottom: 0;
+    }
+
+
+    .text {
+        width: 47vw;
+        padding: 0;
+    }
+
+
 }

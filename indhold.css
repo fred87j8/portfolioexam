@@ -32,26 +32,25 @@ p {
 
 .beskrivelse {
     max-width: 900px;
-    padding: 1vw 0 0 2.9vw;
-    margin: 0 8rem 2rem 1rem;
+    padding: 1vw 0 0 1.5vw;
+    margin: 1rem 1rem 2rem 0.8rem;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 2vw;
+    display: flex;
+    flex-direction: column;
 }
-
 
 .topic_1 {
     background-color: #F7D131;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 2rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
+
 
 /*
 .video {
@@ -65,25 +64,30 @@ p {
 }
 */
 
+
 iframe {
-    width: 60vw;
-    height: 33.75vw;
+    width: 83vw;
+    height: 46.84vw;
     position: relative;
-    left: 14vw;
+    left: 2vw;
     top: 2vh;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .image_2 {
     background-image: url(images/burger_menu_redesign.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 39vw;
-    height: 34.4vw;
+    width: 87vw;
+    height: 72.29vw;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
 }
 
+
 .text {
-    width: 47vw;
+    width: 100%;
+    padding: 0 .5rem 0 .5rem;
 }
 
 .wide_text {
@@ -93,49 +97,72 @@ iframe {
 
 .topic_2 {
     background-color: #BA9BB1;
-    padding: 3vw 6vw 3vw 6vw;
     margin-top: 2vw;
     margin-bottom: 3rem;
     margin-left: -2.2rem;
-    margin-right: -2rem;
     overflow: hidden;
+    margin-right: -1.7rem;
+    padding: 8vw;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 750px) {
+
     .beskrivelse {
-        margin: 1rem 1rem 2rem 0.8rem;
+        margin: 0 8rem 2rem 1rem;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 2vw;
     }
 
     .topic_1,
     .topic_2 {
-        margin-right: -1.7rem;
-        padding: 8vw;
+        margin-right: -2rem;
+        padding: 3vw 6vw 3vw 6vw;
     }
 
     iframe {
-        width: 83vw;
-        height: 46.84vw;
-        position: relative;
-        left: 2vw;
-        top: 2vh;
-        margin-bottom: 2rem;
+        width: 60vw;
+        height: 33.75vw;
+        left: 14vw;
+        margin-bottom: 3rem;
     }
+
 
     .image_2 {
-        width: 87vw;
-        height: 72.29vw;
-        margin-bottom: 1rem;
-        margin-left: .5rem;
-
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column;
+        width: 39vw;
+        height: 34.4vw;
     }
 
     .text {
-        width: 100%;
-        padding: 0 .5rem 0 .5rem;
+        width: 47vw;
+        padding: 0;
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+space*/

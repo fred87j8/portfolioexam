@@ -5,14 +5,15 @@ body {
     margin: 0 auto;
 }
 
+
 .border_box {
     border-color: #F7D131;
     border-style: solid;
     border-width: 4px;
     margin-bottom: -0.5rem;
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-    margin-top: -3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -1.75rem;
     padding: 3rem 1rem 1rem 1rem;
 }
 
@@ -38,7 +39,7 @@ h2 {
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     color: #F7D131;
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -90,56 +91,69 @@ a:hover {
     text-decoration: none;
 }
 
+
 .topic {
     background-color: white;
     border-color: #A3869A;
     border-style: solid;
     border-width: 2px;
+    margin: 0.6rem;
+    border-width: 4px;
     margin: 0rem 0.2rem 0rem 0.2rem;
-    padding: 0.45rem 0.8rem 0.2rem 0.8rem;
+    padding: 0.45rem 1.6rem 0.2rem 1.6rem;
 }
 
 .topic:hover {
-    padding: 0.55rem 0.9rem 0.3rem 0.9rem;
+    margin: 0.6rem;
+    border-width: 4px;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    padding: 0.45rem 1.6rem 0.2rem 1.6rem;
 }
+
 
 .sofa {
     margin: 0 .2rem 0 .2rem;
-}
-
-.sofa:hover {
-    transform: scale(1.12);
+    width: 120px;
 }
 
 /*Nav*/
 
+nav {
+    z-index: 30;
+    height: 102vh;
+    width: 100vw;
+    background-color: #C9B2C2;
+    overflow: hidden;
+    position: relative;
+    top: -3.5rem;
+}
+
 #menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 2rem 0rem 2rem;
+    display: grid;
+    align-content: center;
+    position: relative;
+    top: 3.7rem;
+    z-index: 50;
+    margin: 0 auto;
     list-style-type: none;
+}
+
+ul {
+    line-height: 200%;
+    padding: 2rem;
+    text-align: center;
 }
 
 li {
-    padding: 0rem 0.1rem 0rem 0.1rem;
+    padding: 1rem 0 0 0;
     z-index: 40;
-}
-
-.left_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    margin-top: 0.3rem;
-
 }
 
 #linkbox {
     border-color: white;
     border-style: solid;
     border-width: 1px;
-    width: 97%;
+    width: 92.5%;
     display: block;
     margin: 1rem 0rem 1rem 0rem;
     padding: 0.7rem 1rem 0.7rem 1rem;
@@ -147,21 +161,37 @@ li {
     text-align: center;
 }
 
-.right_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.left_menu {
+    display: inline-block;
+    align-content: center;
     list-style-type: none;
     margin-top: 0.3rem;
 }
 
-#menu {
+.right_menu {
+    display: inline-block;
+    align-content: center;
     list-style-type: none;
+    margin-top: 0.3rem;
 }
 
-
 #menuknap {
-    display: none;
+    display: flex;
+    text-align: center;
+    color: #A3869A;
+    z-index: 40;
+    font-size: 2.3rem;
+    position: relative;
+    top: 1vw;
+    left: 6vw;
+    background-color: white;
+    border-color: #A3869A;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    padding: 0rem 0.5rem 0.1rem 0.5rem;
+    width: 2rem;
 }
 
 footer {
@@ -170,130 +200,106 @@ footer {
     border-top-style: solid;
     border-top-width: 0.4rem;
     position: relative;
-    padding: 1.5rem 6rem 2rem 6rem;
+    padding: 1.5rem 2rem 2rem 2rem;
     display: flex;
     justify-content: center;
 }
 
-
-/***********mobile***********/
-
 @media only screen and (max-width: 680px) {
-
-    h3 {
-        font-size: 1.9rem;
-    }
-
-    /*********burgermenu*********/
-
-    nav {
-        z-index: 30;
-        height: 102vh;
-        width: 100vw;
-        background-color: #C9B2C2;
-        overflow: hidden;
-        position: relative;
-        top: -3.5rem;
-    }
-
-    #menuknap {
-        display: flex;
-        text-align: center;
-        color: #A3869A;
-        z-index: 40;
-        font-size: 2.3rem;
-        position: relative;
-        top: 1vw;
-        left: 6vw;
-        background-color: white;
-        border-color: #A3869A;
-        border-style: solid;
-        border-width: 2px;
-        margin: 0rem 0.2rem 0rem 0.2rem;
-        padding: 0rem 0.5rem 0.1rem 0.5rem;
-        width: 2rem;
-    }
-
-    ul {
-        line-height: 200%;
-        padding: 2rem;
-        text-align: center;
-    }
-
-    #menu {
-        display: grid;
-        align-content: center;
-        position: relative;
-        top: 5rem;
-        left: 15vw;
-        z-index: 50;
-        margin: 0 auto;
-    }
-
-    li {
-        padding: 1rem 0 0 0;
-    }
-
-    .topic {
-        margin: 0.6rem;
-        border-width: 4px;
-        margin: 0rem 0.2rem 0rem 0.2rem;
-        padding: 0.45rem 1.6rem 0.2rem 1.6rem;
-    }
-
-    .topic:hover {
-        margin: 0.6rem;
-        border-width: 4px;
-        margin: 0rem 0.2rem 0rem 0.2rem;
-        padding: 0.45rem 1.6rem 0.2rem 1.6rem;
-    }
-
-    .left_menu {
-        display: inline-block;
-        align-content: center;
-    }
-
-    .right_menu {
-        display: inline-block;
-        align-content: center;
-    }
-
-    .sofa {
-        width: 120px;
-    }
-
-
-    /*Classes til brug i js*/
-
     .hidden {
         display: none;
     }
 
+}
+
+
+@media only screen and (min-width: 680px) {
 
     .border_box {
         border-color: #F7D131;
         border-style: solid;
         border-width: 4px;
         margin-bottom: -0.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        margin-top: -1.75rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        margin-top: -8.65rem;
         padding: 3rem 1rem 1rem 1rem;
     }
 
-    footer {
-        padding: 1.5rem 2rem 2rem 2rem;
-        display: flex;
-        justify-content: center;
+    h3 {
+        font-size: 2.5rem;
     }
 
+    #myheader {
+        z-index: 60;
+    }
+
+    nav {
+        z-index: 60;
+        height: 25vh;
+        /*        width: 100vw;*/
+        background: transparent;
+        overflow: hidden;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    li {
+        padding: 0rem 0.1rem 0rem 0.1rem;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 2rem 0rem 2rem;
+        list-style-type: none;
+        position: relative;
+        top: 4rem;
+    }
+
+    .sofa {
+        width: 100px;
+    }
+
+    .topic {
+        margin: 0rem 0.2rem 0rem 0.2rem;
+        padding: 0.45rem 0.8rem 0.2rem 0.8rem;
+        border-width: 2.5px;
+    }
+
+    .topic:hover {
+        padding: 0.55rem 0.9rem 0.3rem 0.9rem;
+    }
+
+    .left_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right_menu {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .sofa:hover {
+        transform: scale(1.12);
+    }
 
     #linkbox {
-        width: 92.5%;
+        width: 97%;
     }
+
+    footer {
+        padding: 1.5rem 6rem 2rem 6rem;
+    }
+
+
 }
-
-
 
 
 
