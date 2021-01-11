@@ -16,7 +16,6 @@ h3 {
     word-wrap: break-word;
 }
 
-
 h4 {
     margin-bottom: 0.8rem;
     word-wrap: break-word;
@@ -42,6 +41,10 @@ p {
     flex-direction: column;
 }
 
+.imagesx2 {
+    padding: 0.2rem 0 1.6rem 0;
+}
+
 .text {
     width: 100%;
     padding: 0 .5rem 0 .5rem;
@@ -62,12 +65,7 @@ p {
     padding: 8vw;
 }
 
-.imagesx2 {
-    padding: 0.2rem 0 1.6rem 0;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 2vw;
-}
+
 
 /*ratio: 0,6091603056*/
 .image_1a {
@@ -111,6 +109,13 @@ p {
 @media only screen and (min-width: 680px) {
 
     .content {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 2vw;
+    }
+
+    .imagesx2 {
+        padding: 0.2rem 0 1.6rem 0;
         display: grid;
         grid-template-columns: 2fr 3fr;
         grid-gap: 2vw;

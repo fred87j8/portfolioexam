@@ -90,7 +90,6 @@ a:hover {
     text-decoration: none;
 }
 
-
 .topic {
     background-color: white;
     border-color: #A3869A;
@@ -150,7 +149,6 @@ a:hover {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
     background-color: #F7D131;
-
 }
 
 #left_menu {
@@ -158,6 +156,7 @@ a:hover {
     align-content: center;
     list-style-type: none;
     margin-top: 0.3rem;
+    margin-bottom: -3px;
 }
 
 #right_menu {
@@ -165,16 +164,12 @@ a:hover {
     align-content: center;
     list-style-type: none;
     margin-top: 0.3rem;
+    margin-bottom: -3px;
+
 }
 
 #menuknap {
-
     display: flex;
-    /*
-    text-align: center;
-    color: #A3869A;
-    font-size: 2.3rem;
-*/
     z-index: 40;
     position: relative;
     top: 2vw;
@@ -264,7 +259,7 @@ footer {
         margin-top: 0rem;
         padding: 3rem 1rem 1rem 1rem;
         position: relative;
-        top: -107px;
+        top: -109px;
     }
 
     h3 {
@@ -301,7 +296,7 @@ footer {
         padding: 0rem 2rem 0rem 2rem;
         list-style-type: none;
         position: relative;
-        top: 4rem;
+        top: 3.8rem;
     }
 
     .sofa {
