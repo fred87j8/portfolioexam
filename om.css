@@ -5,13 +5,10 @@
 
 .portrait {
     background-image: url(images/frederikkekaysen_cv_2.png);
-
     height: 102vw;
     width: 85vw;
     background-size: cover;
 }
-
-
 
 
 .top {
@@ -19,7 +16,6 @@
     align-content: center;
     flex-direction: column-reverse;
 }
-
 
 .headline {
     padding: 1vw 0 0 1vw;
@@ -35,8 +31,8 @@ h2 {
 
 h3 {
     font-size: 7vw;
+    margin-top: 2.4rem;
 }
-
 
 .cv {
     margin: 2vw 3vw 3vw 3vw;
@@ -57,24 +53,17 @@ h3 {
     max-width: 800px;
 }
 
-
-
-
 .kategori {
     display: flex;
     flex-direction: column;
     grid-row-gap: 2rem;
-
 }
-
 
 .element {
     display: flex;
     flex-direction: column;
     grid-row-gap: 0;
-
 }
-
 
 
 p {
@@ -98,8 +87,6 @@ p {
     h3 {
         font-size: 1.9rem;
     }
-
-
 
     .top {
         display: flex;
@@ -129,11 +116,6 @@ p {
     }
 
 }
-
-
-
-
-
 
 
 
