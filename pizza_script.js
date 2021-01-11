@@ -114,7 +114,7 @@ function toggleMenu() {
     let erSkjult = document.querySelector("nav").classList.contains("hidden");
 
     if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent = "☰";
+        //        document.querySelector("#menuknap").textContent = "☰";
         document.querySelector("#pizza_container0").classList.add("fald");
         document.querySelector("#pizza_container1").classList.add("fald");
         document.querySelector("#pizza_container2").classList.add("fald");
@@ -124,7 +124,7 @@ function toggleMenu() {
         document.querySelector("#pizza_container6").classList.add("fald");
 
     } else {
-        document.querySelector("#menuknap").textContent = "✕";
+        //        document.querySelector("#menuknap").textContent = "╳";
         document.querySelector("#pizza_container0").classList.remove("fald");
         document.querySelector("#pizza_container1").classList.remove("fald");
         document.querySelector("#pizza_container2").classList.remove("fald");
@@ -134,6 +134,11 @@ function toggleMenu() {
         document.querySelector("#pizza_container6").classList.remove("fald");
     }
 
+}
+
+function burgerTilKryds(x) {
+    console.log("burgerTilKryds");
+    x.classList.toggle("change");
 }
 
 

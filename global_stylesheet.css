@@ -67,7 +67,6 @@ p {
     line-height: 1.35;
 }
 
-
 .white {
     color: white;
 
@@ -116,7 +115,78 @@ a:hover {
     width: 120px;
 }
 
-/*Nav*/
+/*Nav and burger menu*/
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin: .7px 0 0 1.7px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #A3869A;
+    margin: 6px 0;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #F7D131;
+
+}
+
+#left_menu {
+    display: inline-block;
+    align-content: center;
+    list-style-type: none;
+    margin-top: 0.3rem;
+}
+
+#right_menu {
+    display: inline-block;
+    align-content: center;
+    list-style-type: none;
+    margin-top: 0.3rem;
+}
+
+#menuknap {
+
+    display: flex;
+    /*
+    text-align: center;
+    color: #A3869A;
+    font-size: 2.3rem;
+*/
+    z-index: 40;
+    position: relative;
+    top: 2vw;
+    left: 6vw;
+    background-color: white;
+    border-color: #A3869A;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    padding: 0rem 0.5rem 0.1rem 0.5rem;
+    width: 2rem;
+}
 
 nav {
     z-index: 30;
@@ -160,38 +230,6 @@ li {
     padding: 0.7rem 1rem 0.7rem 1rem;
     color: white;
     text-align: center;
-}
-
-#left_menu {
-    display: inline-block;
-    align-content: center;
-    list-style-type: none;
-    margin-top: 0.3rem;
-}
-
-#right_menu {
-    display: inline-block;
-    align-content: center;
-    list-style-type: none;
-    margin-top: 0.3rem;
-}
-
-#menuknap {
-    display: flex;
-    text-align: center;
-    color: #A3869A;
-    z-index: 40;
-    font-size: 2.3rem;
-    position: relative;
-    top: 1vw;
-    left: 6vw;
-    background-color: white;
-    border-color: #A3869A;
-    border-style: solid;
-    border-width: 2px;
-    margin: 0rem 0.2rem 0rem 0.2rem;
-    padding: 0rem 0.5rem 0.1rem 0.5rem;
-    width: 2rem;
 }
 
 footer {
