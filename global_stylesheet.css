@@ -84,7 +84,7 @@ a {
 
 a:hover {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: #BC87AC;
     text-decoration: none;
@@ -193,9 +193,10 @@ nav {
     height: 102vh;
     width: 100vw;
     background-color: #C9B2C2;
-    overflow: hidden;
+    /*    overflow: hidden;*/
     position: relative;
     top: -3.5rem;
+    min-height: 450px;
 }
 
 #menu {
@@ -220,7 +221,8 @@ li {
 }
 
 #linkbox1,
-#linkbox2 {
+#linkbox2,
+#linkbox3 {
     border-color: white;
     border-style: solid;
     border-width: 1px;
@@ -247,7 +249,6 @@ footer {
     .hidden {
         display: none;
     }
-
 }
 
 
@@ -260,8 +261,10 @@ footer {
         margin-bottom: -0.5rem;
         margin-left: 0.8rem;
         margin-right: 0.8rem;
-        margin-top: -8.65rem;
+        margin-top: 0rem;
         padding: 3rem 1rem 1rem 1rem;
+        position: relative;
+        top: -107px;
     }
 
     h3 {
@@ -274,10 +277,13 @@ footer {
 
     nav {
         z-index: 60;
-        height: 25vh;
+        height: 150px;
+        /*        height: 25vh;*/
         /*        width: 100vw;*/
         background: transparent;
-        overflow: hidden;
+        /*        overflow: hidden;*/
+        min-height: 0px;
+
     }
 
     #menuknap {
@@ -329,7 +335,8 @@ footer {
     }
 
     #linkbox1,
-    #linkbox2 {
+    #linkbox2,
+    #linkbox3 {
         width: 97%;
     }
 

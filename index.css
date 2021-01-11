@@ -187,7 +187,7 @@ h1 {
 }
 
 .delay2 {
-    animation-delay: 3s;
+    animation-delay: .5s;
     top: -8vw;
     left: 29vw;
 }
@@ -211,7 +211,7 @@ h1 {
 }
 
 .delay6 {
-    animation-delay: 3.5s;
+    animation-delay: 3s;
     top: -8vw;
     left: 58vw;
 }

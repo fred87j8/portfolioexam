@@ -10,7 +10,6 @@
     background-size: cover;
 }
 
-
 .top {
     display: flex;
     align-content: center;
@@ -31,7 +30,7 @@ h2 {
 
 h3 {
     font-size: 7vw;
-    margin-top: 2.4rem;
+    margin-top: .5rem;
 }
 
 .cv {
