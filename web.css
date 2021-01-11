@@ -82,7 +82,7 @@ p {
     overflow: hidden;
 }
 
-@media (max-width: 680px) {
+@media only screen and (max-width: 680px) {
     .beskrivelse {
         margin: 1rem 1rem 2rem 0.8rem;
     }
