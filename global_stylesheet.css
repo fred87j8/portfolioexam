@@ -1,10 +1,13 @@
 /*background*/
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #C9B2C2;
     margin: 0 auto;
 }
-
 
 .border_box {
     border-color: #F7D131;
