@@ -68,6 +68,8 @@ p {
     width: 87vw;
     height: 60.46vw;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+
 }
 
 .text {
@@ -115,6 +117,7 @@ p {
         width: 39vw;
         height: 27.1vw;
         margin-bottom: 0;
+        margin-top: 0;
     }
 
 

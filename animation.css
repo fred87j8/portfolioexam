@@ -93,6 +93,8 @@ p {
     width: 88vw;
     height: 53.4vw;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+
 }
 
 .topic_2 {
@@ -149,6 +151,8 @@ p {
     .image_2 {
         width: 39vw;
         height: 27.1vw;
+        margin-top: 0;
+
     }
 
 

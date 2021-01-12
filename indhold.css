@@ -82,6 +82,8 @@ iframe {
     height: 72.29vw;
     margin-bottom: 1rem;
     margin-left: .5rem;
+    margin-top: 1rem;
+
 }
 
 
@@ -130,10 +132,10 @@ iframe {
         margin-bottom: 3rem;
     }
 
-
     .image_2 {
         width: 39vw;
         height: 34.4vw;
+        margin-top: 0;
     }
 
     .text {
