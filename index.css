@@ -12,14 +12,16 @@ body {
 }
 
 h1 {
-    font-size: 9rem;
-    line-height: 7.1rem;
+    font-size: 5.5rem;
+    line-height: 5.1rem;
     text-align: center;
     position: relative;
-    top: 8.5vh;
-    right: -15vw;
+    top: 3vh;
+    right: -6vw;
     transform: rotate(352deg);
 }
+
+
 
 /*flyvende pizza*/
 
@@ -146,9 +148,10 @@ h1 {
     animation-play-state: paused;
 }
 
+
 .fald {
     animation: fald_kf;
-    animation-duration: 3.2s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -230,30 +233,22 @@ h1 {
     left: 58vw;
 }
 
-
-
-@media only screen and (max-width: 680px) {
+@media only screen and (min-width: 680px) {
+    h1 {
+        font-size: 9rem;
+        line-height: 7.1rem;
+        top: 8.5vh;
+        right: -15vw;
+    }
 
     .fald {
         animation: fald_kf;
-        animation-duration: 3.5s;
+        animation-duration: 3.2s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
     }
 
-    @keyframes forsvind_kf {
-        0% {
-            transform: scale(1);
-        }
-
-        30% {
-            transform: scale(2.5);
-        }
-
-        100% {
-            transform: scale(0);
-        }
-    }
+    /************ DELAYS *************/
 
     .delay0 {
         animation-delay: 2.5s;
@@ -268,7 +263,7 @@ h1 {
     }
 
     .delay2 {
-        animation-delay: 2.6s;
+        animation-delay: .5s;
         top: -8vw;
         left: 29vw;
     }
@@ -292,41 +287,12 @@ h1 {
     }
 
     .delay6 {
-        animation-delay: 3.5s;
+        animation-delay: 3s;
         top: -8vw;
         left: 58vw;
     }
 
-    h1 {
-        font-size: 5.5rem;
-        line-height: 5.1rem;
-        text-align: center;
-        position: relative;
-        top: 3vh;
-        right: -6vw;
-        transform: rotate(352deg);
-    }
-
-    /*
-
-    #pizza_slices {
-        position: absolute;
-        top: -25vw;
-        width: 100%;
-        height: 100%;
-        z-index: 20;
-    }
-*/
-
-
-
 }
-
-
-
-
-
-
 
 
 
