@@ -23,8 +23,8 @@
 
 <body>
     <header id="myheader">
-        <div id="menuknap" class="menu_box" onclick="burgerTilKryds(this)">
-            <div class="container">
+        <div id="menuknap" class="menu_box">
+            <div class="container" id="container">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -63,9 +63,13 @@
 
         <div class="topic_1">
             <h3 class="white">04.01.05 ASSETLISTE & DOKUMENTATION AF DESIGN</h3>
-            <div class="imagesx2">
-                <div class="image_1a"></div>
-                <div class="image_1b"></div>
+            <div class="image">
+                <div class="imagesx2">
+                    <div><img src="images/skitse.png" alt="skitse af spilskærm" width="88" height="56" class="image_1a"></div>
+                    <div> <img src="images/spilskaerm.png" alt="Illustrator spilskærm" width="88" height="56" class="image_1b"></div>
+                </div>
+                <p class="caption"><i>Fra skitse til Illustrator mock-up af spilskærmen</i></p>
+
             </div>
             <div class="wide_text">
                 <h4>Når asymmetri skaber harmoni og former skaber arketyper </h4>
@@ -85,7 +89,12 @@
                         Det vil sige, et script som <strong>“lytter” efter specifikke events som eksempelvis klik på en kat, der derefter trigger en funktion der gør at katten forsvinder og spilleren mister et liv.</strong> En eventlistener skal dog ikke nødvendigvis aktiveres af en spiller; jeg brugte dem også til at lytte efter afslutningen på en animation, for at starte en ny animation. <br><br>
                         I redesignopgaven og her på portfolio siden er det den <strong>samme logik, der gør, at burgermenuen kommer frem ved klik på ikonet </strong>. Css classen, som skjuler burgermenuen bliver ganske enkelt fjernet og sat på igen, når scriptet registrerer et klik. </p>
                 </div>
-                <div class="image_2"></div>
+                <div class="image">
+                    <img src="images/startspil.png" alt="Startskærm fra catch the cats" width="88" height="53" class="image_2">
+                    <p class="caption"><i>Den endelige startskærm i Catch the Cats</i></p>
+
+                </div>
+
             </div>
             <a href="http://frederikkekaysen.com/kea/04_animation/spil.v3/index.html" id="linkbox2" target="_blank"> Vil du hjælpe med at fange krænkerkatte? Prøv spillet her! </a>
         </div>

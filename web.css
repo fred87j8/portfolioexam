@@ -51,25 +51,18 @@ p {
 
 /*ratio:0,7332704995*/
 .image_1 {
-    background-image: url(images/stilpitch_2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 83vw;
-    height: 60.86vw;
-    margin-bottom: 1rem;
+    width: 88vw;
+    height: 64.5vw;
+    margin-bottom: .5rem;
 }
 
 
 /*ratio: 0,6949910555*/
 .image_2 {
-    background-image: url(images/responsive_site.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 87vw;
-    height: 60.46vw;
-    margin-bottom: 1rem;
+    width: 88vw;
+    height: 61.15vw;
+    margin-bottom: .5rem;
     margin-top: 1rem;
-
 }
 
 .text {

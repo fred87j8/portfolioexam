@@ -42,7 +42,7 @@ p {
 }
 
 .imagesx2 {
-    padding: 0.2rem 0 1.6rem 0;
+    padding: 0.2rem 0 .5rem 0;
 }
 
 .text {
@@ -65,36 +65,24 @@ p {
     padding: 8vw;
 }
 
-
-
 /*ratio: 0,6091603056*/
 .image_1a {
-    background-image: url(images/skitse.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 88vw;
     height: 53.6vw;
     margin-bottom: .5rem;
 }
 
 .image_1b {
-    background-image: url(images/spilskaerm.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 88vw;
     height: 53.6vw;
     margin-bottom: 0.2rem;
 }
 
 .image_2 {
-    background-image: url(images/startspil.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 88vw;
     height: 53.4vw;
     margin-bottom: 1rem;
     margin-top: 1rem;
-
 }
 
 .topic_2 {
@@ -117,7 +105,7 @@ p {
     }
 
     .imagesx2 {
-        padding: 0.2rem 0 1.6rem 0;
+        padding: 0.2rem 0 0rem 0;
         display: grid;
         grid-template-columns: 2fr 3fr;
         grid-gap: 2vw;
@@ -141,18 +129,20 @@ p {
     .image_1a {
         width: 43vw;
         height: 26.19vw;
+        margin-bottom: 0;
     }
 
     .image_1b {
         width: 43vw;
         height: 26.19vw;
+        margin-bottom: 0;
     }
 
     .image_2 {
         width: 39vw;
         height: 27.1vw;
         margin-top: 0;
-
+        margin-bottom: 0rem;
     }
 
 

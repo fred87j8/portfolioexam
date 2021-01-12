@@ -55,14 +55,10 @@ p {
 }
 
 .image_1 {
-    background-image: url(images/ide.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 88vw;
     height: 50.53vw;
     margin-bottom: 1rem;
 }
-
 
 .topic_2 {
     background-color: #BA9BB1;
@@ -75,9 +71,6 @@ p {
 }
 
 .image_2 {
-    background-image: url(images/prototype.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 88vw;
     height: 66.4vw;
     margin-bottom: 1rem;
@@ -94,9 +87,6 @@ p {
 }
 
 .image_3 {
-    background-image: url(images/pitch.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 88vw;
     height: 83.9vw;
     margin-bottom: 1rem;
@@ -127,16 +117,19 @@ p {
     .image_1 {
         width: 39vw;
         height: 22.39vw;
+        margin-bottom: 0;
     }
 
     .image_2 {
         width: 39vw;
         height: 28.8vw;
+        margin-bottom: 0;
     }
 
     .image_3 {
         width: 39vw;
         height: 36.4vw;
+        margin-bottom: 0;
     }
 
     .text {

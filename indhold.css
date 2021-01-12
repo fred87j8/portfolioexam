@@ -51,20 +51,6 @@ p {
     padding: 8vw;
 }
 
-
-/*
-.video {
-
-
-    width: 85vw;
-    height: 57.13vw;
-
-    margin-bottom: 2rem;
-    align-content: center;
-}
-*/
-
-
 iframe {
     width: 83vw;
     height: 46.84vw;
@@ -75,15 +61,11 @@ iframe {
 }
 
 .image_2 {
-    background-image: url(images/burger_menu_redesign.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 87vw;
-    height: 72.29vw;
+    width: 88vw;
+    height: 73.12vw;
     margin-bottom: 1rem;
     margin-left: .5rem;
     margin-top: 1rem;
-
 }
 
 
@@ -136,6 +118,7 @@ iframe {
         width: 39vw;
         height: 34.4vw;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .text {

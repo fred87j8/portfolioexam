@@ -109,6 +109,7 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
     document.querySelector("#menuknap").addEventListener("mousedown", toggleMenu);
+    document.querySelector("#menuknap").addEventListener("mousedown", burgerTilKryds);
 }
 
 function toggleMenu() {
@@ -137,12 +138,11 @@ function toggleMenu() {
         document.querySelector("#pizza_container5").classList.remove("fald");
         document.querySelector("#pizza_container6").classList.remove("fald");
     }
-
 }
 
-function burgerTilKryds(x) {
+function burgerTilKryds() {
     console.log("burgerTilKryds");
-    x.classList.toggle("change");
+    document.querySelector("#container").classList.toggle("change");
 }
 
 
